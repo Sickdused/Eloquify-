@@ -1,0 +1,61 @@
+.env
+.env.*
+!.env.example
+
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+*.log
+*.tmp
+.DS_Store
+
+# Local user data
+data/*
+!data/.gitkeep
+
+# Audio recordings
+recordings/*
+!recordings/.gitkeep
+
+# Generated transcripts
+transcripts/*
+!transcripts/.gitkeep
+
+# Backups and temporary files
+*.bak
+*.backup
+*.backup_*
+*.zip
+
+# Personal and generated data
+last_transcription.json
+data/*
+!data/.gitkeep
+recordings/*
+!recordings/.gitkeep
+transcripts/*
+!transcripts/.gitkeep
+
+# Backups and archives
+*.bak
+*.backup
+*.backup_*
+*.zip
+
+# Accidental shell/test files
+done
+earch pipewire
+echo
+grep
+tesfcose
+
+# Local transcription and backup files
+last_transcription.json
+*.backup
+*.backup_*
